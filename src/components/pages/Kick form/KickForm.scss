@@ -1,0 +1,12 @@
+.kick-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 25px;
+
+  .kick-form__button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,73 @@
+.kick-form__balance-wrapper{
+  width: 100px;
+  height: 50px;
+
+  .kick-form__balance{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .kick-form__balance-wallet-svg-wrapper{
+      width: 50%;
+      height: 50%;
+
+      .kick-form__balance-wallet-svg{
+        width: 50%;
+        height: 100%;
+      }
+    }
+
+    .kick-form__balance-amount-wrapper{
+      width: 50px;
+      height: 100%;
+
+      .kick-form__balance-amount{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .kick-form__balance-amount-item{
+          width: 100%;
+          height: 50%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          p{
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            span{
+              font-size: 12px;
+              font-weight: 700;
+              margin: 0 0 0 5px;
+            }
+          }
+
+          &:first-child{
+            p{
+              span{
+                color: green;
+              }
+            }
+          }
+
+          &:last-child{
+            p{
+              span{
+                color: red;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
